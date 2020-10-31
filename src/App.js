@@ -5,6 +5,7 @@ import HomePage from './Flipkart/Components/Home_page/home'
 import NavBar from './Flipkart/Components/Navbar/nav';
 import ProductPage from './Flipkart/Components/Product_page/product';
 import ShopPage from './Flipkart/Components/Shop_page/shop';
+import './style.css'
 
 
 class App extends React.Component{
