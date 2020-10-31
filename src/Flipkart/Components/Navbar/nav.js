@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import img from '../../images/home_page/logo3.jpg'
 
 class NavBar extends React.Component{
     constructor(){
@@ -22,7 +23,7 @@ class NavBar extends React.Component{
             <div className="width1100 flex space-btw">
                 <div>
                     <Link to="/">
-                    <img src={require("../../images/home_page/logo3.jpg")} alt="logo1" />
+                    <img src={img} alt="logo1" />
                     </Link>
                 </div>
                 <div>
