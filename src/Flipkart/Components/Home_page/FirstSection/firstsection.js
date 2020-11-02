@@ -1,6 +1,7 @@
 import React from 'react'
 import $ from 'jquery'
 import FirstSectionImg from './firstsectionimg';
+import clock from '../../../images/home_page/clock.png'
 
 
 
@@ -28,7 +29,7 @@ class FirstSection extends React.Component{
                                      <div className="col-10 margin-top">
                                          <div className="deals flex space-btw">
                                              <div>
-                                                 <h2>Deals of the the Day <img src={require("../../../images/home_page/clock.png")} alt="img" width="15" /> <span>00 : 44 : 25 Left</span></h2>
+                                                 <h2>Deals of the the Day <img src={clock} alt="img" width="15" /> <span>00 : 44 : 25 Left</span></h2>
                                              </div>
                                              <div>
                                                  <h4>VIEW ALL</h4>

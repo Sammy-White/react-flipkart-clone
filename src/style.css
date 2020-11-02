@@ -65,9 +65,8 @@ form.search button{ border: none; padding: 10px; background-color: white;}
 .section-one-img img{margin: 5px 0;object-fit: cover; max-width: 100%;}
 .section-one-img-links{list-style: none; font-size: small; line-height: 1.8em;}
 .section-one-content{display: flex;justify-content: center;align-items: center;flex-direction: column;}
-/* .second-section-container{display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));gap: 10px;} */
 .second-section-container{display: flex; justify-content: space-between; align-items: center;}
-.second-section-container img{margin: 5px 0px 5px 0px; max-width: 100%; border-radius: 5px;}
+.second-section-container img{margin: 5px 0px 5px 0px;  border-radius: 5px;}
 .second-section-container-one{display: flex; justify-content: space-between;}
 .home_footer{background-color: white; padding: 30px; margin-top: 40px;}
 .home_footer h3{opacity: 0.5; font-size: 16px;}
