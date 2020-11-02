@@ -1,5 +1,6 @@
 import React from 'react'
-import NavBar from '../Navbar/nav'
+import location from '../../images/cart_page/location.svg'
+import shield from '../../images/cart_page/shield.png'
 
 
 class FirstCart extends React.Component{
@@ -51,7 +52,7 @@ class FirstCart extends React.Component{
                         <div className="cart_header flex space-btw">
                             <h3>My Cart ({getData.length})</h3>
                             <div className="cart_header_links">
-                                <li><img src={require('../../images/cart_page/location.svg')} /></li>
+                                <li><img src={location} /></li>
                                 <li>Deliver to</li>
                                 <li className="check"><input type="text" placeholder="Enter delivery pincode     Check" /></li>
                             </div>
@@ -133,7 +134,7 @@ class FirstCart extends React.Component{
                         </div>
 
                         <div className="shield">
-                            <li><img src={require('../../images/cart_page/shield.png')} alt="shield" width="25"/></li>
+                            <li><img src={shield} alt="shield" width="25"/></li>
                             <li id="save">Safe and Secure Payments.Easy returns.100% <br/>Authentic products.</li>
                         </div>
                     </div>

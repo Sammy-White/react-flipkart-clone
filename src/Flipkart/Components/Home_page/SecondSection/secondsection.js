@@ -8,7 +8,7 @@ function SecondSection(props){
     return(
     <div>
                             <div className="width1400">
-                                <div className="second-section-container">
+                                <div className="second-section-container margin-top">
                                     <SecondSectionImage data={data} />
                                 </div>
                             </div>

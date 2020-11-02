@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import checkone from '../../../images/product_page/checkone.png'
 
 
 function SecondSectionShopImg(props){
@@ -17,7 +18,7 @@ function SecondSectionShopImg(props){
                                 </Link>
                                 <div className="shop-img-details">
                                     <li style={{ opacity: "0.5", fontWeight: "bolder" }}>{data.name}</li>
-                                    <li style={{ opacity: "0.7" }}>{data.description} <img src={require('../../../images/product_page/checkone.png')} width="50" /></li>
+                                    <li style={{ opacity: "0.7" }}>{data.description} <img src={checkone} width="50" /></li>
                                     <li><b>₹ {data.price}</b> <span style={{ textDecoration: "line-through", opacity: "0.6", fontWeight: "bold" }}>₹1,999</span> <span style={{ color: "green" }}>75% off</span></li>
                                     <li><b style={{ opacity: "0.5" }}>Size</b> 39, 40, 42, 44</li>
                                 </div>

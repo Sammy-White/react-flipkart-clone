@@ -1,4 +1,5 @@
 import React from 'react'
+import checkone from '../../../images/product_page/checkone.png'
 
 class FirstSectionShop extends React.Component{
     constructor(){
@@ -63,7 +64,7 @@ class FirstSectionShop extends React.Component{
                         <div className="flex space-btw">
                             <div>
                                 <input type="checkbox" name="checkOne" value={this.state.checkOne} onChange={this.priceRange} />
-                                <img src={require('../../../images/product_page/checkone.png')} alt="CheckOne" width="60"/>
+                                <img src={checkone} alt="CheckOne" width="60"/>
                             </div>
                             <div className="question">
                                 <span>?</span>

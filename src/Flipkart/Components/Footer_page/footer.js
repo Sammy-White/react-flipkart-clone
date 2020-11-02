@@ -1,4 +1,9 @@
 import React from 'react'
+import f1 from '../../images/footer_img/f1.svg'
+import f2 from '../../images/footer_img/f2.svg'
+import f3 from '../../images/footer_img/f3.svg'
+import f4 from '../../images/footer_img/f4.svg'
+import f10  from '../../images/footer_img/f10.svg'
 
 function Footer(){
     return(
@@ -64,12 +69,12 @@ function Footer(){
                 </ul>
             </div>
             <ul className="flex space-btw padding-top">
-                <li><img src={require('../../images/footer_img/f1.svg')}/> <span>Sell on Flipkart</span></li>
-                <li><img src={require('../../images/footer_img/f2.svg')}/> <span>Advertise</span></li>
-                <li><img src={require('../../images/footer_img/f3.svg')}/> <span>Gifts Cards</span></li>
-                <li><img src={require('../../images/footer_img/f4.svg')}/> <span>Help Center</span></li>
+                <li><img src={f1}/> <span>Sell on Flipkart</span></li>
+                <li><img src={f2}/> <span>Advertise</span></li>
+                <li><img src={f3}/> <span>Gifts Cards</span></li>
+                <li><img src={f4}/> <span>Help Center</span></li>
                 <li>© 2007-2020 Flipkart.com</li>
-                <li><img src={require('../../images/footer_img/f10.svg')}/></li>
+                <li><img src={f10}/></li>
             </ul>
             </footer>
         </div>

@@ -1,5 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import iconthree from '../../images/product_page/icon-three.png'
+import icontwo from '../../images/product_page/icon-two.png'
+import star from '../../images/product_page/star.svg'
+import ruler from '../../images/product_page/ruler.svg'
+import red from '../../images/product_page/red.jpeg'
 
 
 function FirstSectionProduct(props){
@@ -42,15 +47,15 @@ function FirstSectionProduct(props){
                             <p>{data.description}</p>
                             <small>Special price</small>
                             <div><span><b>₹{data.price}</b></span> <span>₹2,560</span><span>60% off</span></div>
-                            <p>Or Pay ₹899 + <img src={require('../../images/product_page/icon-two.png')} alt="icon-two" height="15" /> 100</p>
-                            <p><span className="star">3.5 <img src={require('../../images/product_page/star.svg')} alt="star" /></span> <span>35 ratings and 5 reviews</span></p>
+                            <p>Or Pay ₹899 + <img src={icontwo} alt="icon-two" height="15" /> 100</p>
+                            <p><span className="star">3.5 <img src={star} alt="star" /></span> <span>35 ratings and 5 reviews</span></p>
                         </div>
                         <div className="offers">
                             <h3>Available offers</h3>
-                            <li><img src={require('../../images/product_page/icon-three.png')} alt="icon-three" height="20" /><span>Special PriceGet extra 16.0% off (price inclusive of discount)</span> <span>T&C</span></li>
-                            <li><img src={require('../../images/product_page/icon-three.png')} alt="icon-three" height="20" /><span>Bank Offer5% Unlimited Cashback on Flipkart Axis Bank Credit Card</span> <span>T&C</span></li>
-                            <li><img src={require('../../images/product_page/icon-three.png')} alt="icon-three" height="20" /><span>Bank Offer10% off* with Axis Bank Buzz Credit Card</span> <span>T&C</span></li>
-                            <li><img src={require('../../images/product_page/icon-three.png')} alt="icon-three" height="20" /><span>Bank Offer5% off upto ₹25 on any prepaid instrument</span> <span>T&C</span></li>
+                            <li><img src={iconthree} alt="icon-three" height="20" /><span>Special PriceGet extra 16.0% off (price inclusive of discount)</span> <span>T&C</span></li>
+                            <li><img src={iconthree} alt="icon-three" height="20" /><span>Bank Offer5% Unlimited Cashback on Flipkart Axis Bank Credit Card</span> <span>T&C</span></li>
+                            <li><img src={iconthree} alt="icon-three" height="20" /><span>Bank Offer10% off* with Axis Bank Buzz Credit Card</span> <span>T&C</span></li>
+                            <li><img src={iconthree} alt="icon-three" height="20" /><span>Bank Offer5% off upto ₹25 on any prepaid instrument</span> <span>T&C</span></li>
                             <small>+3 more offers</small>
                         </div>
 
@@ -71,7 +76,7 @@ function FirstSectionProduct(props){
                                 <li><button>L</button></li>
                                 <li><button>XL</button></li>
                                 <li><button>XXL</button></li>
-                                <li>Size Chart <img src={require('../../images/product_page/ruler.svg')} alt="ruler" /></li>
+                                <li>Size Chart <img src={ruler} alt="ruler" /></li>
                             </ul>
                             <p></p>
                         </div>
@@ -79,7 +84,7 @@ function FirstSectionProduct(props){
                         <div className="specify flex space-btw">
                             <p>Specification</p>
                             <ul>
-                                <li><img src={require('../../images/product_page/red.jpeg')} alt="red" height="15" /></li>
+                                <li><img src={red} alt="red" height="15" /></li>
                                 <li><small>Fits:</small></li>
                                 <li><small>Slim</small></li>
                                 <li><small>|</small></li>
@@ -102,14 +107,14 @@ function FirstSectionProduct(props){
                         <div className="rating_review flex space-btw">
                             <div className="r_r">
                                 <li><h3>Ratings & Reviews</h3></li>
-                                <li><span className="star">3.5 <img src={require('../../images/product_page/star.svg')} alt="star" /></span> <span>35 ratings and 5 reviews</span></li>
+                                <li><span className="star">3.5 <img src={star} alt="star" /></span> <span>35 ratings and 5 reviews</span></li>
                             </div>
                             <p>Rate Product</p>
                         </div>
 
                         <div className="comment_side flex space-btw">
                             <div className="comment_main">
-                                <li className="comment_star"><span className="star">3 <img src={require('../../images/product_page/star.svg')} alt="star" /></span> <span>Nice clothe</span></li>
+                                <li className="comment_star"><span className="star">3 <img src={star} alt="star" /></span> <span>Nice clothe</span></li>
                                 <li>SANGARALINGAM N <small>2 months ago</small></li>
                                 <li><svg width="14" height="14" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" class="_3Zp_NJ"><g><circle cx="6" cy="6" r="6" fill="#878787"></circle><path stroke="#FFF" stroke-width="1.5" d="M3 6l2 2 4-4" fill="#878787"></path></g></svg> Certified Buyer, Rs Mangalam</li>
                             </div>
@@ -122,7 +127,7 @@ function FirstSectionProduct(props){
 
                         <div className="comment_side flex space-btw">
                             <div className="comment_main">
-                                <li className="comment_star"><span className="star">3 <img src={require('../../images/product_page/star.svg')} alt="star" /></span> <span>Nice clothe</span></li>
+                                <li className="comment_star"><span className="star">3 <img src={star} alt="star" /></span> <span>Nice clothe</span></li>
                                 <li>SANGARALINGAM N <small>2 months ago</small></li>
                                 <li><svg width="14" height="14" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" class="_3Zp_NJ"><g><circle cx="6" cy="6" r="6" fill="#878787"></circle><path stroke="#FFF" stroke-width="1.5" d="M3 6l2 2 4-4" fill="#878787"></path></g></svg> Certified Buyer, Rs Mangalam</li>
                             </div>
@@ -135,7 +140,7 @@ function FirstSectionProduct(props){
 
                         <div className="comment_side flex space-btw">
                             <div className="comment_main">
-                                <li className="comment_star"><span className="star">3 <img src={require('../../images/product_page/star.svg')} alt="star" /></span> <span>Nice clothe</span></li>
+                                <li className="comment_star"><span className="star">3 <img src={star} alt="star" /></span> <span>Nice clothe</span></li>
                                 <li>SANGARALINGAM N <small>2 months ago</small></li>
                                 <li><svg width="14" height="14" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" class="_3Zp_NJ"><g><circle cx="6" cy="6" r="6" fill="#878787"></circle><path stroke="#FFF" stroke-width="1.5" d="M3 6l2 2 4-4" fill="#878787"></path></g></svg> Certified Buyer, Rs Mangalam</li>
                             </div>
